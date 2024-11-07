@@ -20,7 +20,7 @@ fn main() {
     println!("Result of calculate{:?}",calculate::calculate());
     objects::objects();
     println!("{:?}",create::create_user("Marcus", "Roma"));
-    
+
     let phonebook = [
         Contact { name: "Marcus".to_string(), phone: "+380384804309".to_string() },
         Contact { name: "Nazar".to_string(), phone: "+380329998343".to_string() }
